@@ -1,0 +1,9 @@
+Building IonCoin
+
+See doc/readme-qt.rst for instructions on building IonCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of IonCoin.
+
+See doc/build-*.txt for instructions on building IonCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of IonCoin.
