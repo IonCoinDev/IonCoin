@@ -504,50 +504,50 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_bitcoin.cpp
 qrc_bitcoin.cpp: src/qt/bitcoin.qrc \
 		src/qt/res/movies/update_spinner.mng \
-		src/qt/res/images/splash.png \
 		src/qt/res/images/about.png \
 		src/qt/res/images/wallet.png \
+		src/qt/res/images/splash.png \
 		src/qt/locale/bitcoin_en.qm \
-		src/qt/res/icons/receive.png \
-		src/qt/res/icons/export.png \
-		src/qt/res/icons/filesave.png \
-		src/qt/res/icons/debugwindow.png \
-		src/qt/res/icons/configure.png \
-		src/qt/res/icons/editcopy.png \
-		src/qt/res/icons/IonCoin-128.png \
-		src/qt/res/icons/transaction0.png \
-		src/qt/res/icons/clock1.png \
-		src/qt/res/icons/clock2.png \
-		src/qt/res/icons/IonCoin-128.png \
 		src/qt/res/icons/clock3.png \
-		src/qt/res/icons/tx_output.png \
 		src/qt/res/icons/clock4.png \
+		src/qt/res/icons/receive.png \
 		src/qt/res/icons/clock5.png \
-		src/qt/res/icons/connect0_16.png \
-		src/qt/res/icons/send.png \
-		src/qt/res/icons/connect1_16.png \
+		src/qt/res/icons/editcopy.png \
+		src/qt/res/icons/lock_closed.png \
+		src/qt/res/icons/edit.png \
+		src/qt/res/icons/IonCoin-128.png \
 		src/qt/res/icons/tx_inout.png \
+		src/qt/res/icons/transaction2.png \
+		src/qt/res/icons/address-book.png \
+		src/qt/res/icons/IonCoin-128.png \
+		src/qt/res/icons/IonCoin-16.png \
+		src/qt/res/icons/connect0_16.png \
+		src/qt/res/icons/connect1_16.png \
 		src/qt/res/icons/connect2_16.png \
 		src/qt/res/icons/connect3_16.png \
-		src/qt/res/icons/transaction2.png \
 		src/qt/res/icons/connect4_16.png \
-		src/qt/res/icons/quit.png \
-		src/qt/res/icons/add.png \
-		src/qt/res/icons/lock_open.png \
-		src/qt/res/icons/lock_closed.png \
 		src/qt/res/icons/remove.png \
-		src/qt/res/icons/history.png \
-		src/qt/res/icons/tx_input.png \
-		src/qt/res/icons/key.png \
-		src/qt/res/icons/overview.png \
-		src/qt/res/icons/tx_mined.png \
-		src/qt/res/icons/IonCoin-16.png \
+		src/qt/res/icons/filesave.png \
 		src/qt/res/icons/qrcode.png \
-		src/qt/res/icons/edit.png \
-		src/qt/res/icons/address-book.png \
-		src/qt/res/icons/IonCoin-16.png \
+		src/qt/res/icons/lock_open.png \
+		src/qt/res/icons/tx_input.png \
+		src/qt/res/icons/send.png \
+		src/qt/res/icons/overview.png \
+		src/qt/res/icons/debugwindow.png \
+		src/qt/res/icons/tx_mined.png \
+		src/qt/res/icons/configure.png \
+		src/qt/res/icons/add.png \
+		src/qt/res/icons/history.png \
+		src/qt/res/icons/quit.png \
 		src/qt/res/icons/synced.png \
-		src/qt/res/icons/editpaste.png
+		src/qt/res/icons/tx_output.png \
+		src/qt/res/icons/export.png \
+		src/qt/res/icons/key.png \
+		src/qt/res/icons/IonCoin-16.png \
+		src/qt/res/icons/editpaste.png \
+		src/qt/res/icons/transaction0.png \
+		src/qt/res/icons/clock1.png \
+		src/qt/res/icons/clock2.png
 	/usr/lib/x86_64-linux-gnu/qt5/bin/rcc -name bitcoin src/qt/bitcoin.qrc -o qrc_bitcoin.cpp
 
 compiler_moc_header_make_all: moc_bitcoingui.cpp moc_transactiontablemodel.cpp moc_addresstablemodel.cpp moc_optionsdialog.cpp moc_sendcoinsdialog.cpp moc_coincontroldialog.cpp moc_coincontroltreewidget.cpp moc_addressbookpage.cpp moc_signverifymessagedialog.cpp moc_aboutdialog.cpp moc_editaddressdialog.cpp moc_bitcoinaddressvalidator.cpp moc_clientmodel.cpp moc_guiutil.cpp moc_optionsmodel.cpp moc_monitoreddatamapper.cpp moc_transactiondesc.cpp moc_transactiondescdialog.cpp moc_bitcoinamountfield.cpp moc_transactionfilterproxy.cpp moc_transactionview.cpp moc_walletmodel.cpp moc_overviewpage.cpp moc_csvmodelwriter.cpp moc_sendcoinsentry.cpp moc_qvalidatedlineedit.cpp moc_qvaluecombobox.cpp moc_askpassphrasedialog.cpp moc_notificator.cpp moc_rpcconsole.cpp
